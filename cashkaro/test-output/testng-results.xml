@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22280" started-at="2016-06-14T09:22:08Z" finished-at="2016-06-14T09:22:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22280" started-at="2016-06-14T09:22:08Z" finished-at="2016-06-14T09:22:30Z">
+      <class name="com.cashkaro.tests.cashKaroLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cashkaro.tests.cashKaroLogin@182bbd37]" name="setUp" is-config="true" duration-ms="1990" started-at="2016-06-14T14:52:08Z" finished-at="2016-06-14T14:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFblogin()[pri:2, instance:com.cashkaro.tests.cashKaroLogin@182bbd37]" name="testFblogin" duration-ms="20165" started-at="2016-06-14T14:52:10Z" finished-at="2016-06-14T14:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFblogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cashkaro.tests.cashKaroLogin@182bbd37]" name="tearDown" is-config="true" duration-ms="117" started-at="2016-06-14T14:52:30Z" finished-at="2016-06-14T14:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cashkaro.tests.cashKaroLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

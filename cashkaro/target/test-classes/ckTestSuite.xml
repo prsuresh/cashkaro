@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" verbose="1" name="BlueFin Test"
+	skipfailedinvocationcounts="false" junit="false"
+	data-provider-thread-count="50" annotations="JDK">
+	<parameter name="browser" value="*chrome" />
+	<parameter name="useLocalRC" value="false" />
+	<parameter name="hostname" value="" /> 
+	<test verbose="1" name="P1" annotations="JDK" preserve-order="true"
+		parallel="false">
+	<classes>
+			<class name="com.cashkaro.tests.cashKaroLogin"></class>
+		</classes>
+	</test>
+</suite>
